@@ -18,7 +18,7 @@ const responsive = {
         breakpoint:{max:1024, min: 768},
         items: 2,
     },
-    module:{
+    mobile:{
         breakpoint:{max:768, min:0},
         items: 1,
     },
