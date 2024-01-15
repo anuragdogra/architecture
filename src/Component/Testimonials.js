@@ -52,13 +52,13 @@ const Testimonials = () => {
           </div>)
     }
   return (
-    <div name="Reviews" className='overflow-hidden relative lg:py-20   h-min-screen bg-green-800 '>
+    <div name="Reviews" className='overflow-hidden relative lg:py-20 items-center  h-min-screen bg-green-800 '>
      <div className='h-[50px] bg-white 
       rounded-[50%] w-full -top-7 items-center absolute '></div>   
-    <div className='max-w-screen-lg  flex items-center px-3  flex-col mx-auto 
+    <div className='max-w-full  flex items-center px-3  flex-col mx-auto 
     sm:space-y-0 space-y-10 p-5'></div>
     {/*cariusel section*/}
-    <div className='  p-3 pb-8 lg:pb-0 text-white ml-20   relative'> 
+    <div className='  p-3 pb-8 lg:pb-0 text-white  relative text-center'> 
       <span className='text-white'>Testimonial</span>
       <h2 className='text-3xl font-slogan1 text-white'>What are client say's</h2>
       <Carousel className=' '
