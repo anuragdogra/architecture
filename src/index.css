@@ -8,7 +8,11 @@ body {
 }
 
 
-
+.react-multi-carousel-item  > div
+{
+  margin-right: auto;
+  margin-left:auto;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Fugaz+One&family=Josefin+Sans:wght@100&family=Roboto:wght@100&family=Rubik+Glitch&family=Satisfy&display=swap');
 code {

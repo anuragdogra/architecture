@@ -18,7 +18,7 @@ const responsive = {
         breakpoint:{max:1024, min: 768},
         items: 2,
     },
-    mobile:{
+    module:{
         breakpoint:{max:768, min:0},
         items: 1,
     },
@@ -27,7 +27,7 @@ const responsive = {
 const Testimonials = () => {
     const Buttongroup = ({next ,previous})=>{
          return(
-            <div className='carousel-button-group absolute top-0 right-0 mt-3 mr-3 flex gap-4 '>
+            <div className='carousel-button-group mb-3 mt-3 mr-3 gap-4  absolute top-0 right-0 flex '>
               <button onClick={()=>previous()}>
               <i class="fa-solid fa-circle-chevron-left"></i>
               </button>
@@ -52,16 +52,16 @@ const Testimonials = () => {
           </div>)
     }
   return (
-    <div name="Reviews" className='overflow-hidden relative lg:py-20 items-center justify-center  h-min-screen bg-green-800 '>
+    <div name="Reviews" className='overflow-hidden relative lg:py-20   h-min-screen bg-green-800 '>
      <div className='h-[50px] bg-white 
       rounded-[50%] w-full -top-7 items-center absolute '></div>   
-    <div className='max-w-full  flex items-center px-3  flex-col mx-auto 
+    <div className='max-w-screen-lg  flex items-center px-3  flex-col mx-auto 
     sm:space-y-0 space-y-10 p-5'></div>
     {/*cariusel section*/}
-    <div className=' pb-8 lg:pb-0 text-white  relative justify-center items-center'> 
+    <div className='  p-3 pb-8 lg:pb-0 text-white   relative'> 
       <span className='text-white'>Testimonial</span>
       <h2 className='text-3xl font-slogan1 text-white'>What are client say's</h2>
-      <Carousel className='ml-20 '
+      <Carousel className=' '
       swipeable={true}
       draggable={false}
       responsive={responsive}
