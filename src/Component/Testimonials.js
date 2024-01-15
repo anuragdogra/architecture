@@ -27,7 +27,7 @@ const responsive = {
 const Testimonials = () => {
     const Buttongroup = ({next ,previous})=>{
          return(
-            <div className='carousel-button-group mb-3 lg:top-2 gap-4 flex '>
+            <div className='carousel-button-group absolute top-0 right-0 mt-3 mr-3 flex gap-4 '>
               <button onClick={()=>previous()}>
               <i class="fa-solid fa-circle-chevron-left"></i>
               </button>
@@ -52,16 +52,16 @@ const Testimonials = () => {
           </div>)
     }
   return (
-    <div name="Reviews" className='overflow-hidden relative lg:py-20 items-center  h-min-screen bg-green-800 '>
+    <div name="Reviews" className='overflow-hidden relative lg:py-20 items-center justify-center  h-min-screen bg-green-800 '>
      <div className='h-[50px] bg-white 
       rounded-[50%] w-full -top-7 items-center absolute '></div>   
     <div className='max-w-full  flex items-center px-3  flex-col mx-auto 
     sm:space-y-0 space-y-10 p-5'></div>
     {/*cariusel section*/}
-    <div className='  p-3 pb-8 lg:pb-0 text-white  relative text-center'> 
+    <div className=' pb-8 lg:pb-0 text-white  relative justify-center items-center'> 
       <span className='text-white'>Testimonial</span>
       <h2 className='text-3xl font-slogan1 text-white'>What are client say's</h2>
-      <Carousel className=' '
+      <Carousel className='ml-20 '
       swipeable={true}
       draggable={false}
       responsive={responsive}
