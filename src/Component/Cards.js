@@ -1,7 +1,7 @@
 import React from 'react'
 const Cards = ({icon,heading,about }) => {
   return (
-    <div className="flex overflow-hidden flex-col justify-center w-[300px] space-x-4 mx-auto rounded-lg shadow-md hover:scale-105 duration-300 hover:shadow-emerald-700 transition-all h-full">
+    <div className="flex overflow-hidden flex-col justify-center  mx-auto rounded-lg shadow-md hover:scale-105 duration-300 hover:shadow-emerald-700 transition-all h-full">
       <div className="text-center hover:text-orange-500 transition-all duration-90">
         <i className={`text-4xl ${icon}`}></i>
       </div>
