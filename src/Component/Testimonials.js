@@ -58,7 +58,7 @@ const Testimonials = () => {
     <div className='max-w-screen-lg  flex items-center px-3  flex-col mx-auto 
     sm:space-y-0 space-y-10 p-5'></div>
     {/*cariusel section*/}
-    <div className='  p-3 pb-8 lg:pb-0 text-white ml-28   relative'> 
+    <div className='  p-3 pb-8 lg:pb-0 text-white ml-20   relative'> 
       <span className='text-white'>Testimonial</span>
       <h2 className='text-3xl font-slogan1 text-white'>What are client say's</h2>
       <Carousel className=' '
